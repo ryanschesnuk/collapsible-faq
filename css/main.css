@@ -1,0 +1,41 @@
+body {
+  font-family: 'Fauna One';
+}
+
+.faq-container {
+  width: 70%;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.question {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.question::before {
+  content: "+";
+  margin-right: 10px;
+}
+
+.minus::before {
+  content: "-";
+}
+
+.faq-container div {
+  padding: 1em 1em 0.5em 1em;
+}
+
+.faq-container p {
+  margin: 8px 0 8px 12px;
+}
+
+.faq-container ul.internal {
+  margin-top: 0;
+}
